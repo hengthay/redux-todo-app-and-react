@@ -8,5 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
-  base: '/todo-app-with-redux/'
+  base: '/todo-app-with-redux'
 })
