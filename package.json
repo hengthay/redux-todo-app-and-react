@@ -1,6 +1,6 @@
 {
-  "name": "redux-todo-app",
-  "homepage": "https://hengthay.github.io/todo-app-with-redux/",
+  "name": "redux-todo-app-and-react",
+  "homepage": "https://hengthay.github.io/redux-todo-app-and-react/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
