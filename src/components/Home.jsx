@@ -24,7 +24,7 @@ const Home = () => {
   }
   return (
     <div className='w-full min-h-screen flex justify-center items-start pt-16 bg-gray-100'>
-      <div className='w-full max-w-2xl mx-auto p-8 bg-white rounded-xl shadow-2xl space-y-8'>
+      <div className='w-full md:max-w-2xl sm:max-w-xl mx-auto p-8 bg-white rounded-xl shadow-2xl space-y-8'>
         {/* Header Section */}
         <div className='space-y-3 text-center'>
           <h1 className='text-4xl font-extrabold text-gray-900 tracking-tight'>
@@ -63,7 +63,7 @@ const Home = () => {
                       <input
                         type='text'
                         value={newTitle}
-                        className='w-[300px] py-1.5 px-3 border border-gray-300 rounded-md outline-0 focus:outline-1 focus:outline-pink-500 placeholder:text-[15px]'
+                        className='md:w-[300px] w-[120px] py-1.5 px-3 border border-gray-300 rounded-md outline-0 focus:outline-1 focus:outline-pink-500 placeholder:text-[15px]'
                         onChange={(e) => setNewTitle(e.target.value)}
                       />
                     ) : (
